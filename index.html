@@ -1,0 +1,43 @@
+<div class="position-absolute top-50 start-50 translate-middle " id="drum-machine" >
+  <div id="drum-pad-container" class="d-grid gap-2 " style="grid-template-columns: repeat(3,100px);">
+      <button id="Q" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold " data-name="Heater 1">Q<audio id="Q" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio></button>
+      <button id="W" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Heater 2">W<audio id="W" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio></button>
+      <button id="E" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Heater 3">E<audio id="E" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio></button> 
+      <button id="A" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Heater 4">A<audio id="A" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio></button>
+      <button id="S" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Clap">S<audio id="S" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio></button>
+      <button id="D" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Open-HH">D<audio id="D" class="clip"  src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio></button>
+      <button id="Z" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Kick-n'-Hat">Z<audio id="Z" class="clip"  src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio></button>
+     <button id="X" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Kick">X<audio id="X" class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio></button>
+     <button id="C" class="drum-pad btn btn-secondary btn-lg p-4 fw-bold" data-name="Closed-HH">C<audio id="C" class="clip"   src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio></button>
+  </div>
+  <div class="container">
+   <h4 class="text-end fw-bold">FCC <i class="fa-brands fa-free-code-camp fw-bold"></i></h4>
+   <div class="container">
+    <div class="text-center mb-1 mt-4">
+      <strong>Power</strong>
+      <span class="value-display" id="power-value"></span>
+    </div>
+    <div class="d-flex justify-content-center mb-2">
+      <div class="progress-container" style="width: 50px;" id="power-container">
+        <div class="progress-bar-custom" id="power-bar"></div>
+      </div>
+    </div>
+    <div id="display" class="fw-bold"></div>
+    <div class="slider-wrapper">
+      <div class="slider-track"></div>
+      <div class="slider-thumb" id="slider-thumb"></div>
+      <input type="range" class="slider-input" id="main-slider" min="0" max="100" value="25">
+      <div class="text-center value-display" id="slider-value"></div>
+    </div>
+    <div class="text-center mb-1">
+      <strong>Bank</strong>
+      <span class="value-display" id="bank-value"></span>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="progress-container" style="width: 50px;" id="bank-container">
+        <div class="progress-bar-custom" id="bank-bar" style="width: 50%;"></div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
