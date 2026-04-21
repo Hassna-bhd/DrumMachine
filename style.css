@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
 body {
   background-color: #78909C;
   border-box: box-sizing;
