@@ -8,7 +8,8 @@ body {
 }
 #drum-machine {
   border:6px solid orange;
-  width: 650px;
+  width: 90%;
+  max-width: 600px;
   height: 350px;
   padding: 6px;
   background-color:#CFD8DC;
@@ -102,5 +103,11 @@ color: black;
 @media (max-width: 600px) {
   h1 {
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
   }
 }
