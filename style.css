@@ -99,3 +99,8 @@ color: black;
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
