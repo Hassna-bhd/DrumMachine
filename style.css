@@ -96,18 +96,13 @@ color: black;
   background-color: red;
 }
 @media (max-width: 600px) {
-  .container {
+  #drum-machine {
     flex-direction: column;
-  }
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.4rem;
   }
 }
 
 @media (max-width: 600px) {
-  .container {
+  #drum-machine {
     padding: 10px;
   }
 }
