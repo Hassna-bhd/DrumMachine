@@ -94,3 +94,8 @@ color: black;
 #power-bar, #bank-bar {
   background-color: red;
 }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
