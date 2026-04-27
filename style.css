@@ -118,3 +118,13 @@ color: black;
     padding: 10px;
   }
 }
+@media (max-width: 600px) {
+  .slider-wrapper {
+    height: 40px;
+  }
+
+  .slider-thumb {
+    height: 30px;
+    width: 12px;
+  }
+}
